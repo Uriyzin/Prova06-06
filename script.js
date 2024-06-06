@@ -52,11 +52,11 @@ function total()
 {
     if(salario.value <= 1250)
         {
-            aumento.innerHTML = "Aumento de $" + parseFloat(salario.value * 15) / 100 + ",00.";
+            aumento.innerHTML = "Aumento de " + parseFloat(salario.value * 15) / 100 + " reais";
         }
         else
         {
-            aumento.innerHTML = "Aumento de $" + parseFloat(salario.value * 10) / 100 + ",00."
+            aumento.innerHTML = "Aumento de " + parseFloat(salario.value * 10) / 100 + " reais"
         }
 }
 
