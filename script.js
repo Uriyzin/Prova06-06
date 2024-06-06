@@ -36,11 +36,11 @@ function lerNumeros()
 {
     if(n1.value > n2.value)
         {
-            descobrir.innerHTML = n1.value + " é maior"
+            descobrir.innerHTML = parseFloat(n1.value) + " é maior"
         }
     else
         {
-            descobrir.innerHTML = n2.value + " é maior"
+            descobrir.innerHTML = parseFloat(n2.value) + " é maior"
         }
 }
 
