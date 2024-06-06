@@ -34,7 +34,7 @@ let descobrir = document.getElementById("descobrir")
 
 function lerNumeros()
 {
-    if(n1.value > n2.value)
+    if(parseFloat(n1.value) > parseFloat(n2.value))
         {
             descobrir.innerHTML = parseFloat(n1.value) + " é maior"
         }
